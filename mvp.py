@@ -9,8 +9,8 @@ from datetime import datetime
 import re 
 
 # ====================== CONFIGURACIÓN ======================
-USER = "MCH3"
-PASSWORD = "Cc123456"
+USER = "shin_evan"
+PASSWORD = "Dannybs2k"
 BASE_URL = "https://www.atlantis-ro.info"
 LOGIN_URL = f"{BASE_URL}/rocp/account/login"
 LOGOUT_URL = f"{BASE_URL}/rocp/account/logout"
