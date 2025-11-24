@@ -9,16 +9,17 @@ from datetime import datetime
 import re 
 
 # ====================== CONFIGURACIÓN ======================
-USER = "shin_evan"
-PASSWORD = "Dannybs2k"
+import LocalData
+USER = LocalData.USER 
+PASSWORD = LocalData.PASSWORD
 BASE_URL = "https://www.atlantis-ro.info"
 LOGIN_URL = f"{BASE_URL}/rocp/account/login"
 LOGOUT_URL = f"{BASE_URL}/rocp/account/logout"
 MVP_URL = f"{BASE_URL}/rocp/ranking/mvp/"
 CSV_FILE = "mvp_log.csv"
 
-MIN_WAIT = 300   # 5 minutos
-MAX_WAIT = 600   # 10 minutos
+MIN_WAIT = 30   # 30 segundos
+MAX_WAIT = 60   # 60 segundos
 # ==========================================================
 
 def crear_sesion():
