@@ -1,0 +1,8 @@
+path: ./dataset          # carpeta donde está train/val
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: tu_objeto
+  1: otro_objeto   # si tienes más clases
