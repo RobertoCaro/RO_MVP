@@ -1,2 +1,5 @@
 LocalData.py
 /__pycache__
+/Detect_image/__pycache__
+/TrainIA_Image/runs
+/TrainIA_Image/dataset
